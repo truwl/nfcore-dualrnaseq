@@ -1,0 +1,19 @@
+name: nf.core dualrnaseq
+identifier: WF_28666d.dd
+description: Analysis of Dual RNA-seq data - an experimental method for interrogating
+  host-pathogen interactions through simultaneous RNA-seq.
+softwareVersion:
+  versionName: 1.0.0
+metadataStatus: Released
+workflowStatus: Released
+workflowFile: dualrnaseq.wdl
+repoName: nfcore-dualrnaseq
+gitTag: master
+inputsTemplate: inputs.json
+executable: true
+current: true
+codeRepository:
+  URL: https://github.com/truwl/nfcore-dualrnaseq/
+WebSite:
+- URL: https://github.com/nf-core/dualrnaseq
+  name: nf-core/dualrnaseq
